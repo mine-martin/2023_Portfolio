@@ -1,3 +1,6 @@
+import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact, FaWordpress } from "react-icons/fa6";
+import { SiAdobephotoshop, SiAdobexd, SiFramer, SiNextdotjs } from "react-icons/si";
+
 //  data
 const aboutData = [
   {
