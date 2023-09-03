@@ -41,8 +41,8 @@ const Home = () => {
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'>image</div>
 
         {/* particles */}
-        <ParticlesContainer />
-        
+        <ParticlesContainer className='w-full h-full' />
+
         {/* my avatar */}
         <motion.div variants={fadeIn('up', 0.5)}
           initial="hidden"

@@ -76,7 +76,7 @@ const ParticlesContainer = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 120,
           },
           opacity: {
             value: 0.4,
