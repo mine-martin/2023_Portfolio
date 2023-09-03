@@ -61,15 +61,24 @@ const ParticlesContainer = () => {
           collisions: {
             enabled: true,
           },
+          // move: {
+          //   directions: "random",
+          //   enabled: true,
+          //   outModes: {
+          //     dafault: 'bounce',
+          //   },
+          //   random: true,
+          //   speed: 2,
+          //   straight: false,
+          // },
           move: {
-            directions: "none",
-            enabled: true,
+            direction: "random",
+            enable: true,
             outModes: {
-              dafault: 'bounce',
+              default: "bounce",
             },
-            random: false,
-            speed: 1,
-            straight: false,
+            random: true, // Enable random movement
+            speed: 2, // Adjust the speed of particles
           },
           number: {
             density: {
