@@ -22,22 +22,44 @@ import {
 export const aboutData = [
   {
     title: 'skills',
+    // info: [
+    //   {
+    //     title: 'Web Development',
+    //     icons: [
+    //       <FaHtml5 />,
+    //       <FaCss3 />,
+    //       <FaJs />,
+    //       <FaReact />,
+    //       <SiNextdotjs />,
+    //       <SiFramer />,
+    //       <FaWordpress />,
+    //     ],
+    //   },
+    //   {
+    //     title: 'UI/UX Design',
+    //     icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+    //   },
+    // ],
     info: [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma" />,
+          <SiAdobexd key="adobexd" />,
+          <SiAdobephotoshop key="adobephotoshop" />,
+        ],
       },
     ],
   },
@@ -110,7 +132,7 @@ const About = () => {
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center"> text</div>
-        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
+        <div className="flex flex-col w-full xl:max-w-[48%] h-[400px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((data, dataIndex) => {
               return (
