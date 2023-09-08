@@ -131,7 +131,9 @@ const About = () => {
       </motion.div>
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
-        <div className="flex-1 flex flex-col justify-center"> text</div>
+        {/* text */}
+        <div className="flex-1 flex flex-col justify-center"></div>
+
         <div className="flex flex-col w-full xl:max-w-[48%] h-[400px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((data, dataIndex) => {
@@ -150,12 +152,24 @@ const About = () => {
             })}
           </div>
 
-          <div>
+          <div className="bg-indigo-400/10 py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((data, dataIndex) => {
               return (
-                <div key={dataIndex}>
+                <div
+                  key={dataIndex}
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                >
                   {/* tittle */}
-                  <div>{data.title}</div>
+                  <div className="font-light mb-2 md:mb-0">{data.title}</div>
+                  <div className="hidden md:flex">-</div>
+                  <div>{data.stage}</div>
+
+                  <div className="flex gap-x-4">
+                    {/* icons */}
+                    {data.icons?.map((icon, dataIndex) => {
+                      return <div className="text-2xl text-white">{icon}</div>;
+                    })}
+                  </div>
                 </div>
               );
             })}
