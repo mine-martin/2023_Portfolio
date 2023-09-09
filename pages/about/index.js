@@ -5,17 +5,19 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import {
   FaCss3,
-  FaFigma,
   FaHtml5,
   FaJs,
+  FaKaggle,
+  FaPython,
   FaReact,
-  FaWordpress,
 } from 'react-icons/fa6';
 import {
-  SiAdobephotoshop,
-  SiAdobexd,
   SiFramer,
+  SiMicrosoftexcel,
+  SiNestjs,
   SiNextdotjs,
+  SiPandas,
+  SiPostgresql,
 } from 'react-icons/si';
 
 import CountUp from 'react-countup';
@@ -35,14 +37,17 @@ export const aboutData = [
           <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
           <SiFramer key="framer" />,
+          <SiNestjs key="nest" />,
         ],
       },
       {
-        title: 'Data Analysis/Science',
+        title: 'Data Science',
         icons: [
-          <FaFigma key="figma" />,
-          <SiAdobexd key="adobexd" />,
-          <SiAdobephotoshop key="adobephotoshop" />,
+          <FaPython key="python" />,
+          <SiPandas key="pandas" />,
+          <FaKaggle key="kaggle" />,
+          <SiMicrosoftexcel key="excel" />,
+          <SiPostgresql key="psql" />,
         ],
       },
     ],
@@ -64,16 +69,16 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Software Developer - Stream4Tech LLC',
+        stage: '2022 Oct - Present',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Software Developer - Automata Systems',
+        stage: '2021 Mar - 2021 Sep',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - TSMHS Thika',
+        stage: '2019 Jan - 2019 April',
       },
     ],
   },
