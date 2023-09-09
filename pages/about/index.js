@@ -124,8 +124,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating<span className="text-indigo-500"> stories</span>{' '}
-            birth magnificent design.
+            Captivating<span className="text-indigo-500"> stories</span> birth
+            magnificent design.
           </motion.h2>
           <motion.p
             variants={fadeIn('down', 0.4)}
