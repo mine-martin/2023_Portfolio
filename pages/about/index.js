@@ -132,8 +132,18 @@ const About = () => {
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
-        <div className="flex-1 flex flex-col justify-center"></div>
+        <div className="flex-1 flex flex-col justify-center">
+          <h2 className="h2">
+            Captivating<span>stories</span> birth magnificent design.
+          </h2>
+          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+            10 years ago, I bagan freelancing as a developer. Since then, I,ve
+            done remote work for agencies, counsulted for startups, and
+            collaborated on digital products for business and consumer use.
+          </p>
+        </div>
 
+        {/* info */}
         <div className="flex flex-col w-full xl:max-w-[48%] h-[400px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((data, dataIndex) => {
