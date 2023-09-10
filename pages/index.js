@@ -19,7 +19,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h2"
           >
             Transfoming Ideas
             <br />
@@ -33,7 +33,7 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. In modi,
-            facilis molestiae reprehenderit quas officiis ullam sunt veniam 
+            facilis molestiae reprehenderit quas officiis ullam sunt veniam
           </motion.p>
 
           {/* button */}
@@ -54,7 +54,7 @@ const Home = () => {
       </div>
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-hue translate-z-0">
+        <div className="bg-none  xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0">
           image
         </div>
 
