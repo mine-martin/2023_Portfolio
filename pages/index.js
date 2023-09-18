@@ -55,7 +55,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         <div className="bg-none  xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0">
-          image
+          
         </div>
 
         {/* particles */}

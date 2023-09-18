@@ -184,14 +184,14 @@ const About = () => {
               </div>
 
               {/* awards */}
-              <div className="relative flex-1">
+              {/* <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-indigo-500 mb-2">
                   <CountUp start={0} end={5} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]:">
                   Winning Awards
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
