@@ -62,38 +62,38 @@ const ServiceSlider = () => {
           spacesBetween: 15,
         },
       }}
-      FreeMode ={true}
+      FreeMode={true}
       pagination={{
-        clickable: true
+        clickable: true,
       }}
-      className='h-[240px] sm:h-[340px]'
+      className="h-[240px] sm:h-[340px]"
     >
-      {
-        serviceData.map((items, index) =>{
-          return (
-            <SwiperSlide key={index}>
-              <div className='bg-[rgba(65,47,132,0.15)] h-max rounded-lg px-6 py-8
-              flex sm:flex-col gap-x-6'>
-                {/* icons */}
-                <div>ivons</div>
+      {serviceData.map((items, index) => {
+        return (
+          <SwiperSlide key={index}>
+            <div
+              className="bg-[rgba(65,47,132,0.15)] h-max rounded-lg px-6 py-8
+              flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer"
+            >
+              {/* icons */}
+              <div>ivons</div>
 
-                {/* title and description */}
+              {/* title and description */}
 
+              <div>
+                <div>{items.title}</div>
+                <p>{items.description}</p>
+              </div>
+              <div>
+                {/* arrow */}
                 <div>
-                  <div>{items.title}</div>
-                  <p>{items.description}</p>
-                </div>
-                <div>
-                  {/* arrow */}
-                  <div>
-                    <RxArrowTopLeft />
-                  </div>
+                  <RxArrowTopLeft />
                 </div>
               </div>
-            </SwiperSlide>
-          )
-        })
-      }
+            </div>
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 };
