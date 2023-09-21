@@ -9,6 +9,7 @@ import { FreeMode, Pagination } from 'swiper';
 // icons
 import {
   RxArrowTopLeft,
+  RxArrowTopRight,
   RxCrop,
   RxDesktop,
   RxPencil2,
@@ -90,7 +91,7 @@ const ServiceSlider = () => {
               <div>
                 {/* arrow */}
                 <div className="text-3xl">
-                  <RxArrowTopLeft className="group-hover:rotate-45 group-hover:text-indigo-500 transition-all duration-300" />
+                  <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-indigo-500 transition-all duration-300" />
                 </div>
               </div>
             </div>
