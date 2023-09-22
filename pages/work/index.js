@@ -19,9 +19,9 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-8 "
+              className="h2 xl:mt-12"
             >
-              My Work
+              My  Work
               <span className="text-indigo-500">.</span>
             </motion.h2>
             <motion.p
