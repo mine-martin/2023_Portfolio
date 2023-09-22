@@ -21,6 +21,7 @@ import {
 } from 'react-icons/si';
 
 import CountUp from 'react-countup';
+import Bulb from '../../components/Bulb';
 
 // data
 export const aboutData = [
@@ -249,6 +250,7 @@ const About = () => {
           </div>
         </motion.div>
       </div>
+      <Bulb />
     </div>
   );
 };
