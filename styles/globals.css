@@ -24,6 +24,10 @@
   background-color: hsl(270, 100%, 50%);
 }
 
+.swiper-slide {
+  margin: 2px;
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
